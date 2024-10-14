@@ -10,9 +10,10 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 script_dir = r"C:\Users\SidK\Documents\Documents\HSMA\Hackathon"
 
 # Define file paths (loading from the parent directory)
-model_path = r"C:\Users\SidK\Documents\Documents\HSMA\Hackathon\model.pkl"
-vectorizer_path = r"C:\Users\SidK\Documents\Documents\HSMA\Hackathon\tfidf_vectorizer.pkl"
-encoder_path = r"C:\Users\SidK\Documents\Documents\HSMA\Hackathon\label_encoder.pkl"
+model_path = os.path.join(os.path.dirname(__file__), 'model.pkl')
+vectorizer_path = os.path.join(os.path.dirname(__file__), 'tfidf_vectorizer.pkl')
+encoder_path = os.path.join(os.path.dirname(__file__), 'label_encoder.pkl')
+
 # Load the model, vectorizer, and label encoder
 model = joblib.load(model_path)
 tfidf_vectorizer = joblib.load(vectorizer_path)
