@@ -39,7 +39,7 @@ Interact with the chatbot by inputting natural language statements. The bot will
 ## Datasets: Publicly available social media datasets from Twitter and Reddit.
 ARMOny uses the dataset available from Kaggle for training the model. The dataset contains social media data focused on sentiment analysis for mental health conditions.
 
-- **Sentiment Analysis for Mental Health - Kaggle Dataset
+- **Sentiment Analysis for Mental Health - Kaggle Dataset**
 This dataset was pre-processed and categorized into different mental health conditions for classification purposes using Multinomial Regression.
 
 ## Contributing
