@@ -28,7 +28,7 @@ The goal of this project was to apply NLP techniques to publicly available datas
 - **Social Media Dataset Analysis:** Leverages social media data from Twitter and Reddit for natural language analysis.
 
 ## Usage
-- **Run the Streamlit app locally: streamlit run app.py
+- **Run the Streamlit app locally**: **streamlit run app.py**
   
 Interact with the chatbot by inputting natural language statements. The bot will classify the statements into mental health conditions using Multinomial Regression and provide supportive feedback.
 
