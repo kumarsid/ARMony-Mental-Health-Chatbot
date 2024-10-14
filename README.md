@@ -6,7 +6,6 @@ ARMOny is an interactive health chatbot that uses Natural Language Processing (N
 
 - [About the Project](#about-the-project)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Dataset](#dataset)
@@ -28,8 +27,16 @@ The goal of this project was to apply NLP techniques to publicly available datas
 - **Resource Guidance:** Directs users to NHS resources for further mental health support.
 - **Social Media Dataset Analysis:** Leverages social media data from Twitter and Reddit for natural language analysis.
 
+## Usage
+- **Run the Streamlit app locally: streamlit run app.py
+  
+Interact with the chatbot by inputting natural language statements. The bot will classify the statements into mental health conditions using Multinomial Regression and provide supportive feedback.
+
+## Technologies Used
+- **Natural Language Processing (NLP)**: For text processing and analysis.
+- **Multinomial Regression**: To classify mental health conditions based on user input.
+
 ## Datasets: Publicly available social media datasets from Twitter and Reddit.
-Dataset
 ARMOny uses the dataset available from Kaggle for training the model. The dataset contains social media data focused on sentiment analysis for mental health conditions.
 
 - **Sentiment Analysis for Mental Health - Kaggle Dataset
